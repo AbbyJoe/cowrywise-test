@@ -61,8 +61,6 @@ export default {
         loaded(){
             // Wait for the src to load the images beforre displaying them
             this.loading = false;
-
-            console.log("Image successfully loaded")
         },
         async loadFromUnsplash(){
             this.loading = true;
@@ -95,7 +93,6 @@ export default {
                 location,
                 photographer,
             })
-            console.log("selected image is => ", selectedImageData);
         }
     },
     created(){

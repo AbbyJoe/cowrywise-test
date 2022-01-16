@@ -34,7 +34,6 @@ export default {
     }),
     methods: {
         searchFor(val){
-            console.log("Searching for => ", val);
             this.searchQuery = val;
         },
         closeModal(){
